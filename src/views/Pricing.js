@@ -7,8 +7,8 @@ function Pricing(){
         <section className="bg-light py-5 border-bottom">
             <div className="container px-5 my-5">
                 <div className="text-center mb-5">
-                    <h2 className="fw-bolder">Paga a medida que creces</h2>
-                    <p className="lead mb-0">With our no hassle pricing plans</p>
+                    <h2 className="fw-bolder">Desarrollo de Software a la Medida</h2>
+                    <p className="lead mb-0">Con tecnología de vanguardia segun tus necesidades</p>
                 </div>
                 <div className="row gx-5 justify-content-center">
                     {/* Pricing card free */}
@@ -54,7 +54,7 @@ function Pricing(){
                                         Monthly status reports
                                     </li>
                                 </ul>
-                                <div className="d-grid"><a className="btn btn-outline-primary" href="#!">Choose plan</a></div>
+                                <div className="d-grid"><a className="btn btn-outline-dark" href="#!">Choose plan</a></div>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ function Pricing(){
                                         Monthly status reports
                                     </li>
                                 </ul>
-                                <div className="d-grid"><a className="btn btn-primary" href="#!">Choose plan</a></div>
+                                <div className="d-grid"><a className="btn btn-dark" href="#!">Choose plan</a></div>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@ function Pricing(){
                                         Monthly status reports
                                     </li>
                                 </ul>
-                                <div className="d-grid"><a className="btn btn-outline-primary" href="#!">Choose plan</a></div>
+                                <div className="d-grid"><a className="btn btn-outline-dark" href="#!">Choose plan</a></div>
                             </div>
                         </div>
                     </div>
