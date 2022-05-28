@@ -38,11 +38,11 @@ function Desarrollo(){
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        ¿cliente acepta?
+                                        ¿el cliente acepta?
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Se fija cronograma
+                                        Se fija un cronograma
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
@@ -124,7 +124,7 @@ function Desarrollo(){
                                     <span className="text-muted">/ Lanzamiento</span>
                                 </div>
                                 <div className="mb-3">
-                                    <p className="lead mb-0">Instalación, pruebas y depuración del sitio de Internet del cliente. Se planifica el lanzamiento y se coordina el lanzamiento y se coordina el entrenamiento en las herramientas de administración.</p>
+                                    <p className="lead mb-0">Instalación, pruebas y depuración del sitio de Internet del cliente. Se planifica el lanzamiento y se coordina el entrenamiento en las herramientas de administración.</p>
                                 </div>
                                 <ul className="list-unstyled mb-4">
                                     <li className="mb-2">
