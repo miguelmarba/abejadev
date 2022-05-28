@@ -28,7 +28,7 @@ function Features(){
                     <div className="col-lg-4">
                         <div className="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i className="bi bi-bug"></i></div>
                         <h2 className="h4 fw-bolder">Freelance y Soporte</h2>
-                        <p>Te asignamos un profesional de acuerdo a las necesidades para tu empresa, inviertiendo unicamente el tiempo necesario para tu proyecto de inovación tecnológico.</p>
+                        <p>Te asignamos un profesional de acuerdo a las necesidades para tu empresa, invirtiendo unicamente el tiempo necesario para tu proyecto de inovación tecnológico.</p>
                         <a className="text-decoration-none btn" href="#!">
                             Quiero saber más
                             <i className="bi bi-arrow-right"></i>

@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '../common/Layout';
 import Features from '../views/Features';
-import Pricing from '../views/Pricing';
 import Testimonials from '../views/Testimonials';
 import Contacto from '../views/Contacto';
+import Desarrollo from '../views/Desarrollo';
 
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
         <>
         <Layout title="Home" />
         <Features />
-        <Pricing />
+        <Desarrollo />
         <Testimonials />
         <Contacto />
         </>

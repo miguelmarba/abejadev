@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Pricing(){
+function Desarrollo(){
     return (
         <>
         {/* Pricing section */}
@@ -15,46 +15,49 @@ function Pricing(){
                     <div className="col-lg-6 col-xl-4">
                         <div className="card mb-5 mb-xl-0">
                             <div className="card-body p-5">
-                                <div className="small text-uppercase fw-bold text-muted">Free</div>
+                                {/* <div className="small text-uppercase fw-bold text-muted">Free</div> */}
                                 <div className="mb-3">
-                                    <span className="display-4 fw-bold">$0</span>
-                                    <span className="text-muted">/ mo.</span>
+                                    <span className="display-4 fw-bold">Fase1</span>
+                                    <span className="text-muted">/ Análisis</span>
+                                </div>
+                                <div className="mb-3">
+                                    <p className="lead mb-0">Se identifican las necesidades del cliente, cuál es la audiencia y se conceptualizan el negocio y las metas del cliente para su sitio de Internet.</p>
                                 </div>
                                 <ul className="list-unstyled mb-4">
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        <strong>1 users</strong>
+                                        <strong>Entrevista con el cliente</strong>
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        5GB storage
+                                        Análisis de requerimientos
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Unlimited public projects
+                                        Propuesta técnica y económica
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Community access
+                                        ¿cliente acepta?
                                     </li>
-                                    <li className="mb-2 text-muted">
-                                        <i className="bi bi-x"></i>
-                                        Unlimited private projects
+                                    <li className="mb-2">
+                                        <i className="bi bi-check text-primary"></i>
+                                        Se fija cronograma
                                     </li>
-                                    <li className="mb-2 text-muted">
-                                        <i className="bi bi-x"></i>
-                                        Dedicated support
+                                    <li className="mb-2">
+                                        <i className="bi bi-check text-primary"></i>
+                                        Se crean las especificaciones finales y el diagrama 
                                     </li>
-                                    <li className="mb-2 text-muted">
+                                    {/* <li className="mb-2 text-muted">
                                         <i className="bi bi-x"></i>
                                         Free linked domain
                                     </li>
                                     <li className="text-muted">
                                         <i className="bi bi-x"></i>
                                         Monthly status reports
-                                    </li>
+                                    </li> */}
                                 </ul>
-                                <div className="d-grid"><a className="btn btn-outline-dark" href="#!">Choose plan</a></div>
+                                {/* <div className="d-grid"><a className="btn btn-outline-dark" href="#!">Choose plan</a></div> */}
                             </div>
                         </div>
                     </div>
@@ -62,49 +65,52 @@ function Pricing(){
                     <div className="col-lg-6 col-xl-4">
                         <div className="card mb-5 mb-xl-0">
                             <div className="card-body p-5">
-                                <div className="small text-uppercase fw-bold">
+                                {/* <div className="small text-uppercase fw-bold">
                                     <i className="bi bi-star-fill text-warning"></i>
                                     Pro
+                                </div> */}
+                                <div className="mb-3">
+                                    <span className="display-4 fw-bold">Fase 2</span>
+                                    <span className="text-muted">/ Diseño y Desarrollo.</span>
                                 </div>
                                 <div className="mb-3">
-                                    <span className="display-4 fw-bold">$9</span>
-                                    <span className="text-muted">/ mo.</span>
+                                    <p className="lead mb-0">Se diseña un prototipo visual mediante un software de diseño gráfico. Este se toma como base de aprobación del cliente y para los desarrolladores.</p>
                                 </div>
                                 <ul className="list-unstyled mb-4">
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        <strong>5 users</strong>
+                                        <strong>Diseño de pantallas</strong>
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        5GB storage
+                                        Revisión interna
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Unlimited public projects
+                                        Revisión con el cliente
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Community access
+                                        Creación de estilos y selección de plataforma de trabajo
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Unlimited private projects
+                                        Desarrollo / Implementación de la plataforma
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Dedicated support
+                                        Pruebas formales
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Free linked domain
+                                        Preparación de sitio demo
                                     </li>
-                                    <li className="text-muted">
-                                        <i className="bi bi-x"></i>
-                                        Monthly status reports
+                                    <li className="mb-2">
+                                        <i className="bi bi-check text-primary"></i>
+                                        Presentación con el cliente
                                     </li>
                                 </ul>
-                                <div className="d-grid"><a className="btn btn-dark" href="#!">Choose plan</a></div>
+                                {/* <div className="d-grid"><a className="btn btn-dark" href="#!">Choose plan</a></div> */}
                             </div>
                         </div>
                     </div>
@@ -112,29 +118,32 @@ function Pricing(){
                     <div className="col-lg-6 col-xl-4">
                         <div className="card">
                             <div className="card-body p-5">
-                                <div className="small text-uppercase fw-bold text-muted">Enterprise</div>
+                                {/* <div className="small text-uppercase fw-bold text-muted">Enterprise</div> */}
                                 <div className="mb-3">
-                                    <span className="display-4 fw-bold">$49</span>
-                                    <span className="text-muted">/ mo.</span>
+                                    <span className="display-4 fw-bold">Fase 3</span>
+                                    <span className="text-muted">/ Lanzamiento</span>
+                                </div>
+                                <div className="mb-3">
+                                    <p className="lead mb-0">Instalación, pruebas y depuración del sitio de Internet del cliente. Se planifica el lanzamiento y se coordina el lanzamiento y se coordina el entrenamiento en las herramientas de administración.</p>
                                 </div>
                                 <ul className="list-unstyled mb-4">
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        <strong>Unlimited users</strong>
+                                        <strong>Configuración del servidor</strong>
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        5GB storage
+                                        Puesta en línea oficial del cliente
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Unlimited public projects
+                                        Monitoreo y depuración
                                     </li>
                                     <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
-                                        Community access
+                                        Soporte continuo
                                     </li>
-                                    <li className="mb-2">
+                                    {/* <li className="mb-2">
                                         <i className="bi bi-check text-primary"></i>
                                         Unlimited private projects
                                     </li>
@@ -150,9 +159,9 @@ function Pricing(){
                                     <li className="text-muted">
                                         <i className="bi bi-check text-primary"></i>
                                         Monthly status reports
-                                    </li>
+                                    </li> */}
                                 </ul>
-                                <div className="d-grid"><a className="btn btn-outline-dark" href="#!">Choose plan</a></div>
+                                {/* <div className="d-grid"><a className="btn btn-outline-dark" href="#!">Choose plan</a></div> */}
                             </div>
                         </div>
                     </div>
@@ -163,4 +172,4 @@ function Pricing(){
     );
 }
 
-export default Pricing;
+export default Desarrollo;
